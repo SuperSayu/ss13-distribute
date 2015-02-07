@@ -1,0 +1,16 @@
+<h1>Welcome to Sayu Station 13!</h1>
+A private server for the MS Paint Adventures fandom.
+
+
+<i>This server is running a /tg/station13 SVN build, customized by me.  It will be updated periodically.</i>
+* <b>Official chatroom:</b> irc://irc.esper.net/#sayustation (Unofficial chatroom: #mspafa)
+* Away missions are <u>disabled.</u>
+
+For a list of changes in Sayustation see <a href='https://github.com/SuperSayu/-tg-station/wiki'>the wiki</a> on GitHub.
+Report problems and concerns <a href='https://github.com/SuperSayu/-tg-station/issues'>here</a>.
+<hr>
+
+<b>Admins:</b>
+* SuperSayu
+* Dalmationer
+We are also happy to have PLizzard as a temporary admin

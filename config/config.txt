@@ -116,6 +116,9 @@ FORUMURL http://ss13.supersayu.com/wiki
 ## Wiki address
 WIKIURL http://tgstation13.org/wiki
 
+## Rules address
+RULESURL http://ss13.supersayu.com/wiki/index.php/Rules
+
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 BANAPPEALS irc://irc.esper.net/#sayustation
 

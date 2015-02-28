@@ -89,9 +89,10 @@ PROBABILITY NUCLEAR 6
 PROBABILITY REVOLUTION 0
 PROBABILITY CULT 2
 PROBABILITY CHANGELING 2
-PROBABILITY WIZARD 8
+PROBABILITY WIZARD 3
 PROBABILITY MALFUNCTION 1
 PROBABILITY BLOB 0
+PROBABILITY MONKEY 0
 PROBABILITY METEOR 0
 PROBABILITY EXTENDED 0
 
@@ -113,6 +114,12 @@ SHUTTLE_REFUEL_DELAY 12000
 ## Set to 0 to disable scaling and use default numbers instead.
 TRAITOR_SCALING_COEFF 4
 CHANGELING_SCALING_COEFF 6
+NUKEOP_SCALING_COEFF 11
+
+## Variables calculate how number of open security officer positions will scale to population.
+## Used as (Officers = Population / Coeff)
+## Set to 0 to disable scaling and use default numbers instead.
+SECURITY_SCALING_COEFF 8
 
 # The number of objectives traitors get.
 # Not including escaping/hijacking.

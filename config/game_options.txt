@@ -70,15 +70,6 @@ ALERT_RED_DOWNTO The self-destruct mechanism has been deactivated, there is stil
 ALERT_DELTA The station's self-destruct mechanism has been engaged. All crew are instructed to obey all instructions given by heads of staff. Any violations of these orders can be punished by death. This is not a drill.
 
 
-### EXPLOSIONS ###
-
-## Unhash this to use recursive explosions, keep it hashed to use normal style explosions.
-## Recursive explosions react to walls, airlocks and blast doors, making them look a lot cooler
-## than the boring old circular explosions. They require more CPU and are (as of March 2013) experimental.
-## The default map is generally designed for the old style explosions in terms of security.
-
-#USE_RECURSIVE_EXPLOSIONS
-
 
 ### GAME MODES ###
 
@@ -99,6 +90,7 @@ PROBABILITY MALFUNCTION 1
 PROBABILITY BLOB 0
 PROBABILITY RAGINMAGES 0
 PROBABILITY MONKEY 0
+
 PROBABILITY METEOR 0
 PROBABILITY EXTENDED 0
 
@@ -109,8 +101,10 @@ PROBABILITY SANDBOX 0
 ## the shuttle is called or the station is nuked.
 ## Malf and Rev will let the shuttle be called when the antags/protags are dead.
 #CONTINUOUS_ROUND_REV
+#CONTINUOUS_ROUND_GANG
 #CONTINUOUS_ROUND_WIZ
 #CONTINUOUS_ROUND_MALF
+#CONTINUOUS_ROUND_BLOB
 
 ## The amount of time it takes for the emergency shuttle to be called, from round start.
 SHUTTLE_REFUEL_DELAY 12000
@@ -139,7 +133,14 @@ PROTECT_ROLES_FROM_ANTAGONIST
 ## being most antagonists.
 PROTECT_CAPTAIN_FROM_ANTAGONIST
 
+
+
+## Uncomment to prohibit assistants from becoming most antagonists.
+#PROTECT_ASSISTANT_FROM_ANTAGONIST
+
+
 ## If non-human species are barred from joining as a head of staff
+
 #ENFORCE_HUMAN_AUTHORITY
 
 ## If late-joining players have a chance to become a traitor/changeling
@@ -226,5 +227,22 @@ SILICON_MAX_LAW_AMOUNT 12
 JOIN_WITH_MUTANT_RACE
 
 ## Uncomment to allow certain species to have custom colors
-
 MUTANT_COLORS
+
+## Assistant slot cap. Set to -1 for unlimited.
+ASSISTANT_CAP -1
+
+## Starlight for exterior walls and breaches. Uncomment for starlight!
+STARLIGHT
+
+## Uncomment to bring back old grey suit assistants instead of the now default rainbow colored assistants.
+
+#GREY_ASSISTANTS
+
+### Midround Antag (aka Mulligan antag) config options ###
+
+## A time, in minutes, after which the midround antag system stops attempting to run and continuous rounds end immediately upon completion.
+MIDROUND_ANTAG_TIME_CHECK 60
+
+## A ratio of living to total crew members, the lower this is, the more people will have to die in order for midround antag to be skipped
+MIDROUND_ANTAG_LIFE_CHECK 0.7

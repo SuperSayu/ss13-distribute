@@ -274,10 +274,10 @@ STARLIGHT
 ### Midround Antag (aka Mulligan antag) config options ###
 
 ## A time, in minutes, after which the midround antag system stops attempting to run and continuous rounds end immediately upon completion.
-MIDROUND_ANTAG_TIME_CHECK 60
+MIDROUND_ANTAG_TIME_CHECK 120
 
 ## A ratio of living to total crew members, the lower this is, the more people will have to die in order for midround antag to be skipped
-MIDROUND_ANTAG_LIFE_CHECK 0.7
+MIDROUND_ANTAG_LIFE_CHECK 0.3
 
 #NO_SUMMON_GUNS
 #NO_SUMMON_MAGIC

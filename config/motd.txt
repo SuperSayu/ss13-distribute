@@ -11,6 +11,6 @@ Report problems and concerns <a href='https://github.com/SuperSayu/-tg-station/i
 <hr>
 
 <b>Admins:</b>
-* SuperSayu
+* PLizzard
 * Dalmationer
-We are also happy to have PLizzard as a temporary admin
+* SuperSayu
